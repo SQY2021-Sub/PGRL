@@ -27,7 +27,25 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 
 :triangular_flag_on_post:**(3)** **`This paper envisions to democratize artificial intelligence for the modeling of power electronic converters and systems. Meanwhile, this exemplary application envisions to `**[provide a new perspective for tailoring existing machine learning tools for power electronics field](https://github.com/sub-p/PGRL).
 
+[^back to top](#top)
 
+## Requirements
+- MATLAB == 2021b
+- PLECS == 4.7.4
+- Simulink
+- Python
+- PyTorch
+
+## Problem Formulation
+
+
+## Methodology
+
+## Main Results
+
+## Baselines
+
+We will continuously add PINN/PGML models applied in the field of power electronics to expand this repository.
 
 
 
