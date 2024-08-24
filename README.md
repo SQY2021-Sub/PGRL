@@ -48,6 +48,24 @@ We will continuously add PINN/PGML models applied in the field of power electron
 - Python
 - PyTorch
 
+## Usage
+1. Install the requirement file. For convenience, execute the following command.
+
+```
+pip install -r requirements.txt
+```
+
+2. Viewing program operation.
+
+```
+1. PhyRes-LSTM-main.ipynb
+
+2. Physical-driven_module_RK4.ipynb
+
+3. DAB_TPS_waveform.ipynb
+```
+
+
 ## Problem Formulation
 #### A. DAB Converters With Phase-Shift Modulation
 Due to the advantages of galvanic isolation, high power densityand bidirectional energy flow, dual active bridge (DAB) dc–dc converter is gaining more and more popularity in industry applications. The topology of DAB dc–dc converter is depicted in Fig. 2. 
@@ -69,6 +87,7 @@ The related 6 cases are illustrated in Fig. 3 and their mathematical expressions
 ![DAB_MATLAB](https://github.com/user-attachments/assets/278ac2e4-f7d4-497c-a641-57f523c28292)
 
 Fig. 4. Simulation example of DAB converter.
+
 [^back to top](#top)
 
 #### B. Data-Driven Modeling Approach for DAB Converters
@@ -77,6 +96,8 @@ We first define the essence of the problem. The DAB converter’s modeling proce
 
 ## Methodology
 The proposed PhyRes-LSTM is a novel PINN/PGML model designed to efficiently and accurately solve general nonlinear partial differential equations (PDEs) for the temporal behavior of power converters. Even in extreme low-data regime (data-light implementation), PhyRes-LSTM still demonstrates strong learning and generalization capabilities while strictly adhering to the integrated physical principles, addressing the challenges in the existing data-driven and state-of-the-art PINN methods in the power electronics field.
+
+
 
 [^back to top](#top)
 ## Main Results
