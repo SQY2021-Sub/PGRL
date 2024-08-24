@@ -55,7 +55,7 @@ We will continuously add PINN/PGML models applied in the field of power electron
 pip install -r requirements.txt
 ```
 
-2. Viewing program operation.
+2. **Jupyter Notebook Examples** : We provide Jupyter Notebook to help reproduce and customize our repo, which includes
 
 ```
 1. PhyRes-LSTM-main.ipynb
