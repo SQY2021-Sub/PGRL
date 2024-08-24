@@ -28,6 +28,19 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 
 [^back to top](#top)
 
+## Baselines
+
+We will continuously add PINN/PGML models applied in the field of power electronics to expand this repository.
+
+- [x] Numerical methods [[7]](https://ieeexplore.ieee.org/document/8409299)
+- [x] LSTM [[8]](https://ieeexplore.ieee.org/document/9492829)
+- [x] ResNet [[9]](https://arxiv.fropet.com/abs/1603.08029)
+- [x] ResNet-LSTM [[10]](https://ieeexplore.ieee.org/document/9798792)
+- [x] PINN [[11]](https://ieeexplore.ieee.org/document/9779551)
+- [ ] ...
+      
+[^back to top](#top)
+
 ## Requirements
 - MATLAB == 2021b
 - PLECS == 4.7.4
@@ -43,8 +56,15 @@ Due to the advantages of galvanic isolation, high power densityand bidirectional
 
 Fig. 2. Topology of dual-active-bridge DC–DC converter.
 
-The most widely used control for DAB converters is the PSM from the invention of this topology. Consequently, single phase shift (SPS) control, extended phase shift (EPS) control, dual phase shift (DPS) control, and triple phase shift (TPS) control [[4]](https://ieeexplore.ieee.org/document/5776689) are proposed. 
+The most widely used control for DAB converters is the PSM from the invention of this topology. Consequently, single phase shift (SPS) control, extended phase shift (EPS) control, dual phase shift (DPS) control, and triple phase shift (TPS) control [[4]](https://ieeexplore.ieee.org/document/5776689) are proposed. Certainly, the TPS control can also be adapted to other methods such as SPS, DPS, etc., by simply modifying the phase shift ratio $D$. Therefore, we chose the more versatile TPS for our study. Based on the phase-shift ratio definition, TPS shows the highest control degree of freedom, which enables TPS the capability of providing the minimum root-mean-square (rms) current, lowest backflow power, and maximum ZVS range. 
 
+![image](https://github.com/user-attachments/assets/cb6090d4-5c3a-43f9-b266-bcd67c51c780)
+
+Fig. 3. Different modes and their typical waveforms of DAB converters with the triple-phase-shift control. (a) Mode 1:0 $\leq D_1 \leq D_2 \leq D_3 \leq 1$. (b) Mode 2:0 $\leq D_2 \leq D_1 \leq D_3 \leq 1$. (c) Mode 3: $0 \leq D_2 \leq D_3 \leq D_1 \leq 1$. (d) Mode 4: $0 \leq D_3-1 \leq D_1 \leq D_2 \leq 1$. (e) Mode 5: $0 \leq D_3-1 \leq D_2 \leq D_1 \leq 1$. (f) Mode 6: $0 \leq D_1 \leq D_3-1 \leq D_2 \leq 1$.
+
+The related 6 cases are illustrated in Fig. 4 and their mathematical expressions are given as follows:
+
+![image](https://github.com/user-attachments/assets/477b5414-ea28-45ec-9dd7-7f5f92a1b83c)
 
 [^back to top](#top)
 ## Methodology
@@ -53,18 +73,6 @@ The most widely used control for DAB converters is the PSM from the invention of
 [^back to top](#top)
 ## Main Results
 
-
-[^back to top](#top)
-## Baselines
-
-We will continuously add PINN/PGML models applied in the field of power electronics to expand this repository.
-
-- [x] Numerical methods [[7]](https://ieeexplore.ieee.org/document/8409299)
-- [x] LSTM [[8]](https://ieeexplore.ieee.org/document/9492829)
-- [x] ResNet [[9]](https://arxiv.fropet.com/abs/1603.08029)
-- [x] ResNet-LSTM [[10]](https://ieeexplore.ieee.org/document/9798792)
-- [x] PINN [[11]](https://ieeexplore.ieee.org/document/9779551)
-- [ ] 
 
 [^back to top](#top)
 
