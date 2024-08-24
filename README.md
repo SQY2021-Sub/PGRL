@@ -10,7 +10,7 @@ This is a GitHub repository for the **`Physics-Guided Hierarchical Res-LSTM Fram
 
 ## Introduction 
 
-Power converters are extensively utilized in many applications such as consumer electronics, industrial electronics, electric vehicles (EVs), energy storage systems, and distributed generation systems to generate either a regulated dc or ac voltage source and manage the power flow by mainly controlling the switching actions of power semiconductor devices [[1]](https://ieeexplore.ieee.org/document/9351620). `In all of these applications, the ability to accurately describe the behavior of the converter is of critical importance, as it assists in component selection, controller design, and the preliminary evaluation of the entire DC system`.  Power converters exhibit an inherent nonlinear behavior due to the switching action of the power switches, thus making its modeling difficult due to the complexity of the required models.
+Power converters are extensively utilized in many applications such as consumer electronics, industrial electronics, electric vehicles (EVs), energy storage systems, and distributed generation systems to generate either a regulated dc or ac voltage source and manage the power flow by mainly controlling the switching actions of power semiconductor devices (see Fig. 1)[[1]](https://ieeexplore.ieee.org/document/9351620). `In all of these applications, the ability to accurately describe the behavior of the converter is of critical importance, as it assists in component selection, controller design, and the preliminary evaluation of the entire DC system`.  Power converters exhibit an inherent nonlinear behavior due to the switching action of the power switches, thus making its modeling difficult due to the complexity of the required models.
 
 ![1](https://github.com/user-attachments/assets/48175392-9e72-47fa-a75d-5fe416eeffe5)
 
@@ -36,6 +36,14 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 - PyTorch
 
 ## Problem Formulation
+#### A. DAB Converters With Phase-Shift Modulation
+Due to the advantages of galvanic isolation, high power densityand bidirectional energy flow, dual active bridge (DAB) dc–dc converter is gaining more and more popularity in industry applications. The topology of DAB dc–dc converter is depicted in Fig. 2. 
+
+![image](https://github.com/user-attachments/assets/ff703b71-0dbc-4d9b-94dd-dfc2f000709b)
+
+Fig. 2. Topology of dual-active-bridge DC–DC converter.
+
+The most widely used control for DAB converters is the PSM from the invention of this topology. Consequently, single phase shift (SPS) control, extended phase shift (EPS) control, dual phase shift (DPS) control, and triple phase shift (TPS) control [[4]](https://ieeexplore.ieee.org/document/5776689) are proposed. 
 
 
 [^back to top](#top)
