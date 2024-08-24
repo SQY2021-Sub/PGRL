@@ -39,13 +39,25 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 ## Problem Formulation
 
 
+[^back to top](#top)
 ## Methodology
 
+
+[^back to top](#top)
 ## Main Results
 
+
+[^back to top](#top)
 ## Baselines
 
 We will continuously add PINN/PGML models applied in the field of power electronics to expand this repository.
 
+- [x] Numerical methods [[7]](https://ieeexplore.ieee.org/document/8409299)
+- [x] LSTM [[8]](https://ieeexplore.ieee.org/document/9492829)
+- [x] ResNet [[9]](https://arxiv.fropet.com/abs/1603.08029)
+- [x] ResNet-LSTM [[10]](https://ieeexplore.ieee.org/document/9798792)
+- [x] PINN [[11]](https://ieeexplore.ieee.org/document/9779551)
+- [ ] 
+[^back to top](#top)
 
 
