@@ -23,11 +23,11 @@ Generally, physical modeling relies on a knowledge of the values of the dc–dc 
 
 In this paper, we propose a **`physics-guided hierarchical network with the deep residual network (ResNet) and long short-term memory (LSTM) for the data-driven modeling of power converters`**, which can bridge the connection between knowledge-based model and data-driven model for enhancing converter modeling and industrial process modeling. The main contributions of this work can be summarized as follow.**
 
-:triangular_flag_on_post:**(1)**  [A novel physics-guided framework based on DL is proposed]([https://github.com/sub-p/PGRL)]), `improving the performance of converter modeling and industrial process modeling`.
+:triangular_flag_on_post:**(1)**  [A novel physics-guided framework based on DL is proposed](https://github.com/sub-p/PGRL), `improving the performance of converter modeling and industrial process modeling`.
 
-:triangular_flag_on_post:**(2)** `Compared to the advanced existing physics-driven, data-driven, and physics-informed neural network (PINN)/ physics-guided machine learning (PGML) methods in the field of power electronics, our approach achieves superior physical consistency, data-light implementation and generalization ability`.
+:triangular_flag_on_post:**(2)** `Compared to the advanced existing physics-driven, data-driven, and physics-informed neural network (PINN)/ physics-guided machine learning (PGML) methods in the field of power electronics`, [our approach achieves superior physical consistency, data-light implementation and generalization ability](https://github.com/sub-p/PGRL).
 
-:triangular_flag_on_post:**(3)** `This paper envisions to democratize artificial intelligence for the modeling of power electronic converters and systems. Meanwhile, this exemplary application envisions to provide a new perspective for tailoring existing machine learning tools for power electronics`.
+:triangular_flag_on_post:**(3)** **`This paper envisions to democratize artificial intelligence for the modeling of power electronic converters and systems. Meanwhile, this exemplary application envisions to provide a new perspective for tailoring existing machine learning tools for power electronics`**.
 
 
 
