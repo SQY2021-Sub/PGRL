@@ -7,4 +7,4 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
 ![License CC BY-NC-SA](https://img.shields.io/badge/license-CC_BY--NC--SA--green.svg?style=plastic)
 
-This is a GitHub repository for the $Physics-Guided Hierarchical Res-LSTM Framework (PhyRes-LSTM)$.
+This is a GitHub repository for the `[Physics-Guided Hierarchical Res-LSTM Framework (PhyRes-LSTM)](https:)`.
