@@ -26,3 +26,8 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 :triangular_flag_on_post:**(2)** `Compared to the advanced existing physics-driven, data-driven, and physics-informed neural network (PINN)/ physics-guided machine learning (PGML) methods in the field of power electronics, our approach achieves superior physical consistency, data-light implementation and generalization ability`.
 
 :triangular_flag_on_post:**(3)** `This paper envisions to democratize artificial intelligence for the modeling of power electronic converters and systems. Meanwhile, this exemplary application envisions to provide a new perspective for tailoring existing machine learning tools for power electronics`.
+
+
+
+
+
