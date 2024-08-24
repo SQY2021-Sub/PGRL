@@ -62,13 +62,21 @@ The most widely used control for DAB converters is the PSM from the invention of
 
 Fig. 3. Different modes and their typical waveforms of DAB converters with the triple-phase-shift control. (a) Mode 1:0 $\leq D_1 \leq D_2 \leq D_3 \leq 1$. (b) Mode 2:0 $\leq D_2 \leq D_1 \leq D_3 \leq 1$. (c) Mode 3: $0 \leq D_2 \leq D_3 \leq D_1 \leq 1$. (d) Mode 4: $0 \leq D_3-1 \leq D_1 \leq D_2 \leq 1$. (e) Mode 5: $0 \leq D_3-1 \leq D_2 \leq D_1 \leq 1$. (f) Mode 6: $0 \leq D_1 \leq D_3-1 \leq D_2 \leq 1$.
 
-The related 6 cases are illustrated in Fig. 4 and their mathematical expressions are given as follows:
+The related 6 cases are illustrated in Fig. 3 and their mathematical expressions are given as follows:
 
 ![image](https://github.com/user-attachments/assets/477b5414-ea28-45ec-9dd7-7f5f92a1b83c)
 
-[^back to top](#top)
-## Methodology
+![DAB_MATLAB](https://github.com/user-attachments/assets/278ac2e4-f7d4-497c-a641-57f523c28292)
 
+Fig. 4. Simulation example of DAB converter.
+[^back to top](#top)
+
+#### B. Data-Driven Modeling Approach for DAB Converters
+We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
+
+
+## Methodology
+The proposed PhyRes-LSTM is a novel PINN/PGML model designed to efficiently and accurately solve general nonlinear partial differential equations (PDEs) for the temporal behavior of power converters. Even in extreme low-data regime (data-light implementation), PhyRes-LSTM still demonstrates strong learning and generalization capabilities while strictly adhering to the integrated physical principles, addressing the challenges in the existing data-driven and state-of-the-art PINN methods in the power electronics field.
 
 [^back to top](#top)
 ## Main Results
