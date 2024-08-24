@@ -13,9 +13,7 @@ This is a GitHub repository for the **`Physics-Guided Hierarchical Res-LSTM Fram
 
 Power converters are extensively utilized in many applications such as consumer electronics, industrial electronics, electric vehicles (EVs), energy storage systems, and distributed generation systems to generate either a regulated dc or ac voltage source and manage the power flow by mainly controlling the switching actions of power semiconductor devices [[1]](https://ieeexplore.ieee.org/document/9351620). `In all of these applications, the ability to accurately describe the behavior of the converter is of critical importance, as it assists in component selection, controller design, and the preliminary evaluation of the entire DC system`.  Power converters exhibit an inherent nonlinear behavior due to the switching action of the power switches, thus making its modeling difficult due to the complexity of the required models.
 
-<p align="center">
-<img src=".\pic_in_readme\1.png" alt="" align=center />
-</p>
+![1](https://github.com/user-attachments/assets/48175392-9e72-47fa-a75d-5fe416eeffe5)
 
 Fig. 1. Diagram of a hierarchical microgrid with power converters [[2]](https://ieeexplore.ieee.org/document/9525187)
 
