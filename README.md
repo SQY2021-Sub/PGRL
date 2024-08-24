@@ -57,6 +57,7 @@ We will continuously add PINN/PGML models applied in the field of power electron
 - [x] ResNet-LSTM [[10]](https://ieeexplore.ieee.org/document/9798792)
 - [x] PINN [[11]](https://ieeexplore.ieee.org/document/9779551)
 - [ ] 
+
 [^back to top](#top)
 
 
