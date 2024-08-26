@@ -86,7 +86,7 @@ def Physics_driven_block(Vi, R_load, D1, D2, D_phi):
     record_v_C2 = np.array(record_v_C2)
     record_i_L = np.array(record_i_L)
 
-    # 绘制record_t, record_v_C2, record_i_L
+    # record_t, record_v_C2, record_i_L
     plt.figure()
     plt.plot(record_t, record_v_C2, 'b', label='v_C2')
     plt.plot(record_t, record_i_L, 'r', label='i_L')
