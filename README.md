@@ -2,7 +2,7 @@
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 ![PyTorch 1.2](https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?style=plastic)
 ![cuDNN 7.3.1](https://img.shields.io/badge/cudnn-11.3.1-green.svg?style=plastic)
-![MATLAB 2021b](https://img.shields.io/badge/MATLAB-2024a-blue.svg?style=plastic)
+![MATLAB 2021b](https://img.shields.io/badge/MATLAB-2021b-blue.svg?style=plastic)
 ![PLECS 4.5.6](https://img.shields.io/badge/PLECS-4.5.6-green.svg?style=plastic)
 [![Build status](https://ci.appveyor.com/api/projects/status/8msiklxfbhlnsmxp/branch/master?svg=true)](https://ci.appveyor.com/project/TadasBaltrusaitis/openface/branch/master)
 
@@ -84,6 +84,8 @@ or
 bash ./run.sh
 ```
 
+[^back to top](#top)
+
 ## Problem Formulation
 #### A. DAB Converters With Phase-Shift Modulation
 Due to the advantages of galvanic isolation, high power densityand bidirectional energy flow, dual active bridge (DAB) dc–dc converter is gaining more and more popularity in industry applications. The topology of DAB dc–dc converter is depicted in Fig. 2. 
@@ -101,6 +103,8 @@ Fig. 3. Different modes and their typical waveforms of DAB converters with the t
 The related 6 cases are illustrated in Fig. 3 and their mathematical expressions are given as follows:
 
 ![image](https://github.com/user-attachments/assets/477b5414-ea28-45ec-9dd7-7f5f92a1b83c)
+
+In our paper, we selected a typical and relatively more common mode as an example to illustrate our method. Of course, the approach is applicable to other models as well. 
 
 ![DAB_MATLAB](https://github.com/user-attachments/assets/278ac2e4-f7d4-497c-a641-57f523c28292)
 
