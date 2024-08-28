@@ -45,12 +45,12 @@ We will continuously add PINN/PGML models applied in the field of power electron
 - MATLAB == 2021b
 - PLECS == 4.7.4
 - Simulink
-- Python
-- PyTorch
+- Python 3.7
+- torch == 1.9.0
 
 [^back to top](#top)
 
-## Usage
+## Reproducibility
 1. Install the requirement file. For convenience, execute the following command.
 
 ```
@@ -69,6 +69,20 @@ pip install -r requirements.txt
 3. DAB_TPS_waveform.ipynb
 ```
 
+3. **Usage**:
+1. Download the repository
+
+2. Train the model.
+
+```
+run main.py
+```
+
+or
+
+```
+bash ./run.sh
+```
 
 ## Problem Formulation
 #### A. DAB Converters With Phase-Shift Modulation
