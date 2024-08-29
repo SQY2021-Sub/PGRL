@@ -113,7 +113,9 @@ Fig. 4. Simulation example of DAB converter.
 
 [^back to top](#top)
 
-#### B. Data-Driven Modeling Approach for DAB Converters
+
+
+#### C. Data-Driven Modeling Approach for DAB Converters
 We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
 
 
