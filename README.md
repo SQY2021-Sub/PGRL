@@ -106,7 +106,8 @@ The related 6 cases are illustrated in Fig. 3 and their mathematical expressions
 
 In our paper, we selected a typical and relatively more common mode as an example to illustrate our method. Of course, the approach is applicable to other models as well. 
 
-![DAB_MATLAB](https://github.com/user-attachments/assets/278ac2e4-f7d4-497c-a641-57f523c28292)
+![image](https://github.com/user-attachments/assets/2b4d2e56-4687-4b30-b5f7-436cc0017c1f)
+
 
 Fig. 4. Simulation example of DAB converter.
 
