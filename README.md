@@ -132,6 +132,8 @@ The exact solution of integration is analytic method. Integration computation ca
 - Time Step $h$ : A time step $h$ is chosen for the numerical integration. 
 - Initial Time $t=0$ : The computation starts at $t=0$.
 
+[^back to top](#top)
+
 #### (2) Computation of Intermediate Steps
 
 Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
@@ -141,9 +143,13 @@ Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
 
 ![image](https://github.com/user-attachments/assets/637c5d39-9cd1-4b62-90af-42cc6110ec12)
 
+[^back to top](#top)
+
 #### (3) Update $v_{C 2}$ and $i_L$ Using the Runge-Kutta Algorithm
 
 ![image](https://github.com/user-attachments/assets/31f6d63a-c218-43a8-b1a5-8794acbe0c88)
+
+[^back to top](#top)
 
 #### C. Data-Driven Modeling Approach for DAB Converters
 We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
