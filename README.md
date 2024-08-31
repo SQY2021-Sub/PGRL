@@ -142,7 +142,7 @@ Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
 
 #### (3) Update $v_{C 2}$ and $i_L$ Using the Runge-Kutta Algorithm
 
-![image](https://github.com/user-attachments/assets/3106884e-0862-4cc0-a5bc-c9d115b53fd1)
+![image](https://github.com/user-attachments/assets/31f6d63a-c218-43a8-b1a5-8794acbe0c88)
 
 #### C. Data-Driven Modeling Approach for DAB Converters
 We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
