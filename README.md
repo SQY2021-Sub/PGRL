@@ -187,7 +187,7 @@ With the hierarchical ResNet-LSTM network and knowledge from prior information, 
 
 ## Acknowledgement
 
-This project is supported by the National Natural Science Foundation of China under Grant 52007196. At the same time, thank you all for your attention to this work! 
+This project is supported by the `National Natural Science Foundation of China under Grant 52007196`. At the same time, thank you all for your attention to this work! 
 
 [^back to top](#top)
 
