@@ -128,7 +128,7 @@ A power electronics system can be expressed in the general form of partial diffe
 
 The exact solution of integration is analytic method. Integration computation can be done by using numerical integration methods such as: Euler, Heun, Runge Kutta or Adams-Bashforth-Moulton. Runge - Kutta integration method is the most popular method for PDE numerical solutions. This integration method has several advantages such as: ease of programming and stable. The fourth order Runge - Kutta integration method is
 
-#### (1) Initialization
+#### *(1) Initialization*
 
 - Initial Conditions: The initial values for the capacitor voltage $v_{C 2}(0)$ and the inductor current $i_L(0)$ at time $t=0$ are set as $v_{C 2,0}$ and $i_{L, 0}$ respectively.
 - Time Step $h$ : A time step $h$ is chosen for the numerical integration. 
@@ -136,7 +136,7 @@ The exact solution of integration is analytic method. Integration computation ca
 
 [^back to top](#top)
 
-#### (2) Computation of Intermediate Steps
+#### *(2) Computation of Intermediate Steps*
 
 Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
 - These variables are computed using the fourth-order Runge-Kutta method. They represent the approximate derivatives of the capacitor voltage and inductor current at various points within the current time step.
@@ -147,7 +147,7 @@ Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
 
 [^back to top](#top)
 
-#### (3) Update $v_{C 2}$ and $i_L$ Using the Runge-Kutta Algorithm
+#### *(3) Update* $v_{C 2}$ *and* $i_L$ *Using the Runge-Kutta Algorithm*
 
 ![image](https://github.com/user-attachments/assets/31f6d63a-c218-43a8-b1a5-8794acbe0c88)
 
