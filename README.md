@@ -170,6 +170,14 @@ With the hierarchical ResNet-LSTM network and knowledge from prior information, 
 [^back to top](#top)
 ## Main Results
 
+|Model Ranking|Model|Challenges|
+|   🥇 1st     |**PhyRes-LSTM**                |Advantage: Mechanistic modeling based on complex rules and process-related knowledge can correctly explain physics phenomenon, continuously verify the results, and hardly make mistakes, which are suitable for monitoring, optimization, and control.|
+|   🥈 2nd     |**PGML/PGDL/PINN**             |
+|   🥉 3rd     |**Purely data-driven modeling**|Challenges|
+|   🥉 4th     |**Physics-based modeling**     |Challenges|
+
+
+
 
 [^back to top](#top)
 
