@@ -175,11 +175,17 @@ With the hierarchical ResNet-LSTM network and knowledge from prior information, 
 |   🥇 1st     |**PhyRes-LSTM**                | Explainable and data-light; Extensibility and Robustness.| 
 |   🥈 2nd     |**PGML/PGDL/PINN**             | Physical inconsistency; Loose constraints; Complete retraining.   | 
 |   🥉 3rd     |**Purely data-driven modeling**| Heavy computation burden; Extensive datasets; Uninterpretable black-box models. |
-|   🥉 4th     |**Physics-based modeling**     | The comprehensive theoretical knowledge is required; Limitations in accuracy and computational complexity.|
+|   🥉 4th     |**Knowledge-based modeling**     | The comprehensive theoretical knowledge is required; Limitations in accuracy and computational complexity.|
 
 [^back to top](#top)
 
+## Acknowledgement
+
+This project is supported by the National Natural Science Foundation of China under Grant 52007196. At the same time, thank you all for your attention to this work! 
 
 [^back to top](#top)
+
+## Contact
+If you have any questions, feel free to contact Qianyi Shang [![image](https://github.com/user-attachments/assets/01e03db5-6d36-4aaf-807e-421631b7fc59)](https://orcid.org/0000-0002-4568-8895) through Email (21000504@nue.edu.cn) or Github issues. Pull requests are highly welcomed!
 
 
