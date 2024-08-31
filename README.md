@@ -125,10 +125,24 @@ A power electronics system can be expressed in the general form of partial diffe
 
 The exact solution of integration is analytic method. Integration computation can be done by using numerical integration methods such as: Euler, Heun, Runge Kutta or Adams-Bashforth-Moulton. Runge - Kutta integration method is the most popular method for PDE numerical solutions. This integration method has several advantages such as: ease of programming and stable. The fourth order Runge - Kutta integration method is
 
-##### 1. Initialization
+#### (1) Initialization
 
-![image](https://github.com/user-attachments/assets/a8f97dab-7868-42ac-ab17-c236d8e30016)
+- Initial Conditions: The initial values for the capacitor voltage $v_{C 2}(0)$ and the inductor current $i_L(0)$ at time $t=0$ are set as $v_{C 2,0}$ and $i_{L, 0}$ respectively.
+- Time Step $h$ : A time step $h$ is chosen for the numerical integration. 
+- Initial Time $t=0$ : The computation starts at $t=0$.
 
+#### (2) Computation of Intermediate Steps
+
+Calculate Intermediate Variables $k_1, k_2, k_3, k_4$ and $l_1, l_2, l_3, l_4$ :
+- These variables are computed using the fourth-order Runge-Kutta method. They represent the approximate derivatives of the capacitor voltage and inductor current at various points within the current time step.
+- The formulas involve parameters like $n D_2(t), R r, L_s, C_2$, and $R_{\text {load }}$, which correspond to circuit components such as the diode voltage drop, internal resistance, inductance, capacitance, and load resistance.
+- Each $k$ and $l$ corresponds to the derivative approximations at different stages (current time point, midpoints, and a predicted next time point) within the time step.
+
+![image](https://github.com/user-attachments/assets/637c5d39-9cd1-4b62-90af-42cc6110ec12)
+
+#### (3) Update $v_{C 2}$ and $i_L$ Using the Runge-Kutta Algorithm
+
+![image](https://github.com/user-attachments/assets/3106884e-0862-4cc0-a5bc-c9d115b53fd1)
 
 #### C. Data-Driven Modeling Approach for DAB Converters
 We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
