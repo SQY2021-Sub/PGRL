@@ -33,10 +33,15 @@ In this paper, we propose a **`physics-guided hierarchical network with the deep
 We will continuously add PINN/PGML models applied in the field of power electronics to expand this repository.
 
 :white_check_mark: Numerical methods [[7]](https://ieeexplore.ieee.org/document/8409299)
+
 :white_check_mark: LSTM [[8]](https://ieeexplore.ieee.org/document/9492829)
+
 :white_check_mark: ResNet [[9]](https://arxiv.fropet.com/abs/1603.08029)
+
 :white_check_mark: ResNet-LSTM [[10]](https://ieeexplore.ieee.org/document/9798792)
+
 :white_check_mark: PINN [[11]](https://ieeexplore.ieee.org/document/9779551)
+
 - [x] ...
       
 [^back to top](#top)
