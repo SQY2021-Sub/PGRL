@@ -130,7 +130,9 @@ A power electronics system can be expressed in the general form of partial diffe
 
 ![image](https://github.com/user-attachments/assets/4f6d0b0d-a0af-4a23-9a4f-103923c4d4de)
 
-The exact solution of integration is analytic method. Integration computation can be done by using numerical integration methods such as: Euler, Heun, Runge Kutta or Adams-Bashforth-Moulton. Runge - Kutta integration method is the most popular method for PDE numerical solutions. This integration method has several advantages such as: ease of programming and stable. The fourth order Runge - Kutta integration method is
+The exact solution of integration is analytic method. Integration computation can be done by using numerical integration methods such as: Euler, Heun, Runge Kutta or Adams-Bashforth-Moulton. Runge - Kutta integration method is the most popular method for PDE numerical solutions. This integration method has several advantages such as: ease of programming and stable. The fourth order Runge - Kutta integration method is:
+
+[^back to top](#top)
 
 #### *(1) Initialization*
 
@@ -169,7 +171,7 @@ The proposed PhyRes-LSTM is a novel PINN/PGML model designed to efficiently and 
 
 Fig. 5. An overview of proposed PhyRes-LSTM approach
 
-With the hierarchical ResNet-LSTM network and knowledge from prior information, it is possible for the proposed PhysicsNAS to generalize its performance with the limited number of training samples.
+With the hierarchical ResNet-LSTM network and knowledge from prior information, it is possible for the proposed PhyRes-LSTM to generalize its performance with the limited number of training samples.
 
 [^back to top](#top)
 ## Main Results
@@ -190,6 +192,6 @@ This project is supported by the National Natural Science Foundation of China un
 [^back to top](#top)
 
 ## Contact
-If you have any questions, feel free to contact Qianyi Shang [![image](https://github.com/user-attachments/assets/01e03db5-6d36-4aaf-807e-421631b7fc59)](https://orcid.org/0000-0002-4568-8895) through Email (21000504@nue.edu.cn) or Github issues. Pull requests are highly welcomed!
+If you have any questions, feel free to contact Qianyi Shang [![image](https://github.com/user-attachments/assets/cc7d1dc3-951f-4635-9dd5-e2799c14f735)](https://orcid.org/0000-0002-4568-8895) through Email (21000504@nue.edu.cn) or Github issues. Pull requests are highly welcomed!
 
-
+[^back to top](#top)
