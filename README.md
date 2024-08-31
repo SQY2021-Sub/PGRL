@@ -77,6 +77,8 @@ pip install -r requirements.txt
 3. DAB_TPS_waveform.ipynb
 ```
 
+[^back to top](#top)
+
 3. **Usage**:
 1. Download the repository
 
@@ -107,6 +109,8 @@ The most widely used control for DAB converters is the PSM from the invention of
 ![image](https://github.com/user-attachments/assets/cb6090d4-5c3a-43f9-b266-bcd67c51c780)
 
 Fig. 3. Different modes and their typical waveforms of DAB converters with the triple-phase-shift control. (a) Mode 1:0 $\leq D_1 \leq D_2 \leq D_3 \leq 1$. (b) Mode 2:0 $\leq D_2 \leq D_1 \leq D_3 \leq 1$. (c) Mode 3: $0 \leq D_2 \leq D_3 \leq D_1 \leq 1$. (d) Mode 4: $0 \leq D_3-1 \leq D_1 \leq D_2 \leq 1$. (e) Mode 5: $0 \leq D_3-1 \leq D_2 \leq D_1 \leq 1$. (f) Mode 6: $0 \leq D_1 \leq D_3-1 \leq D_2 \leq 1$.
+
+[^back to top](#top)
 
 The related 6 cases are illustrated in Fig. 3 and their mathematical expressions are given as follows:
 
