@@ -113,16 +113,27 @@ In our paper, we selected a typical and relatively more common mode as an exampl
 
 ![image](https://github.com/user-attachments/assets/2b4d2e56-4687-4b30-b5f7-436cc0017c1f)
 
-
 Fig. 4. Simulation example of DAB converter.
 
 [^back to top](#top)
 
+#### B. Physics-Driven Modeling Approach for DAB Converters
+
+A power electronics system can be expressed in the general form of partial differential equations (PDEs) through the state-space equations. To solve the state-space equation, numerical integration algorithms can be applied to discretize the continuous form. Formulation of integration can be written in the form:
+
+![image](https://github.com/user-attachments/assets/4f6d0b0d-a0af-4a23-9a4f-103923c4d4de)
+
+The exact solution of integration is analytic method. Integration computation can be done by using numerical integration methods such as: Euler, Heun, Runge Kutta or Adams-Bashforth-Moulton. Runge - Kutta integration method is the most popular method for PDE numerical solutions. This integration method has several advantages such as: ease of programming and stable. The fourth order Runge - Kutta integration method is
+
+##### 1. Initialization
+
+![image](https://github.com/user-attachments/assets/a8f97dab-7868-42ac-ab17-c236d8e30016)
 
 
 #### C. Data-Driven Modeling Approach for DAB Converters
 We first define the essence of the problem. The DAB converter’s modeling process can be considered a regression problem, since its goal is to obtain a function of the input–output mapping of the time series.
 
+[^back to top](#top)
 
 ## Methodology
 The proposed PhyRes-LSTM is a novel PINN/PGML model designed to efficiently and accurately solve general nonlinear partial differential equations (PDEs) for the temporal behavior of power converters. Even in extreme low-data regime (data-light implementation), PhyRes-LSTM still demonstrates strong learning and generalization capabilities while strictly adhering to the integrated physical principles, addressing the challenges in the existing data-driven and state-of-the-art PINN methods in the power electronics field.
